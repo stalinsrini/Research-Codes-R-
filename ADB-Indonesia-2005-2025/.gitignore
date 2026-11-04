@@ -1,0 +1,23 @@
+# ADB document downloads and compressed archives
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# Generated data and audits
+*.csv
+downloads/
+outputs/
+recovery_outputs/
+ADB_Indonesia_Recovery/
+ADB_Targeted_Recovery/
+
+# Python/Colab temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+*.key
